@@ -12,10 +12,10 @@ Les outils requis:
 
 ```
 git
-vagrant 2.0+
-virtualbox 5.2+
+Vagrant 2.0+
+Virtualbox 5.2+
   ou
-libvirt (disto resante de linux)
+libvirt (distro moderne de linux)
 6GB de RAM ou mieux
 ```
 
