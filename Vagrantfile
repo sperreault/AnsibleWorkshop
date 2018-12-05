@@ -27,7 +27,7 @@ Vagrant.configure("2") do |config|
         vb.customize ["modifyvm", :id, "--cpus", "2"]
        end
        node_config.vm.provider :libvirt do |libvirt|
-        libvirt.memory = 2048
+        libvirt.memory = 4096
         libvirt.cpus = 2
        end
 
