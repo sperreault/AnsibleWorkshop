@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
      node_config.vm.synced_folder ".", "/vagrant", disabled: true
      if "#{node[:hostname]}" == 'centos1'
        node_config.vm.provider :virtualbox do |vb|
-        vb.customize ["modifyvm", :id, "--memory", "2048"]
+        vb.customize ["modifyvm", :id, "--memory", "4096"]
         vb.customize ["modifyvm", :id, "--cpus", "2"]
        end
        node_config.vm.provider :libvirt do |libvirt|
