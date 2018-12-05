@@ -27,6 +27,9 @@ Pour utiliser les fichiers du workshop. Dans un terminal:
 git clone https://github.com/sperreault/AnsibleWorkshop.git
 cd AnsibleWorkshop
 vagrant up
+si vous etes sous Mac ou Linux (Pour faire un port forward du port 80 et 443)
+sudo vagrant up
+
 ```
 
 Pour vous connecter aux VMs de votre PC:
